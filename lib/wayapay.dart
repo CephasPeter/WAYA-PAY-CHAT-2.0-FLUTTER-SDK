@@ -59,7 +59,7 @@ class App extends StatelessWidget {
           TransactionService(
               charge.isTest?Strings.stagingBaseUrl:Strings.baseUrl
           ),
-        mainContext
+        context
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
