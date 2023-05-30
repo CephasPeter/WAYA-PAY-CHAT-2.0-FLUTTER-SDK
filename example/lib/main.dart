@@ -41,6 +41,7 @@ class _HomeState extends State<Home> {
   final TextEditingController phoneNumberController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
   final key = GlobalKey<FormState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -137,6 +138,5 @@ class _HomeState extends State<Home> {
               ),
 
           );
-
   }
 }
