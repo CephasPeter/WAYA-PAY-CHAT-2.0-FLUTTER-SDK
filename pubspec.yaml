@@ -14,7 +14,7 @@ dependencies:
   http: ^0.13.5
   flutter_svg:
   intl: ^0.17.0
-  google_fonts: ^3.0.1
+  google_fonts: ^4.0.3
   top_snackbar_flutter: ^2.1.1
   flutter_inappwebview: ^5.7.1
   webview_flutter: ^3.0.4
